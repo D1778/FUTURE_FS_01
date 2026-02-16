@@ -4,7 +4,6 @@ import { User, Code, Briefcase } from 'lucide-react';
 export default function About() {
   const skills = {
     "Frontend": ["React.js", "JavaScript (ES6+)", "HTML5 & CSS3", "Tailwind CSS", "Responsive Design"],
-    // UPDATED BACKEND LIST BELOW:
     "Backend": ["Node.js", "Express.js", "Python", "PHP", "SQL", "MongoDB"],
     "Tools & Others": ["Git & GitHub", "VS Code", "Figma"]
   };
@@ -15,7 +14,7 @@ export default function About() {
         <h2 className="font-serif text-4xl md:text-5xl font-bold mb-12">
           About <span className="gradient-text">Me</span>
         </h2>
-        
+
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-16">
           {[
             { icon: User, title: "Background", text: "I'm an aspiring full-stack developer with a passion for creating seamless user experiences. Currently pursuing masters in Computer application while building real-world applications." },

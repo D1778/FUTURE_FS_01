@@ -39,7 +39,7 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className="min-h-screen flex items-center py-24 bg-neutral-900">
+    <section id="contact" className="min-h-screen flex items-center py-24 bg-neutral-950">
       <div className="container mx-auto px-6 max-w-7xl">
         <h2 className="font-serif text-4xl md:text-5xl font-bold mb-12">
           Get In <span className="gradient-text">Touch</span>
@@ -47,7 +47,6 @@ export default function Contact() {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24">
 
-          {/* Left Column: Contact Info & Links */}
           <div>
             <p className="text-xl text-neutral-400 leading-relaxed mb-8">
               I'm currently looking for new opportunities and interesting projects.
@@ -55,9 +54,8 @@ export default function Contact() {
             </p>
 
             <div className="flex flex-col gap-6">
-              {/* Email */}
               <a
-                href="mailto:your.email@gmail.com"
+                href="mailto:dinudevees@gmail.com"
                 className="flex items-center gap-4 text-lg hover:text-[#ff6b35] transition-colors group"
               >
                 <div className="p-3 bg-neutral-800 rounded-lg group-hover:bg-[#ff6b35]/10 transition-colors">
@@ -66,7 +64,6 @@ export default function Contact() {
                 dinudevees@gmail.com
               </a>
 
-              {/* GitHub */}
               <a
                 href="https://github.com/D1778"
                 target="_blank"
@@ -79,7 +76,6 @@ export default function Contact() {
                 github.com/D1778
               </a>
 
-              {/* LinkedIn */}
               <a
                 href="https://www.linkedin.com/in/dinu-devees-george"
                 target="_blank"
@@ -94,7 +90,6 @@ export default function Contact() {
             </div>
           </div>
 
-          {/* Right Column: Contact Form */}
           <form ref={formRef} onSubmit={handleSubmit} className="flex flex-col gap-6 bg-neutral-950 p-8 rounded-2xl border border-neutral-800 shadow-sm">
             <div>
               <label className="block text-sm font-medium mb-2 text-neutral-300">Name</label>

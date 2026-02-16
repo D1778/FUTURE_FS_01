@@ -3,21 +3,20 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
 import Projects from './components/Projects';
+import Certificates from './components/Certificates';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 export default function App() {
   const [activeSection, setActiveSection] = useState('home');
 
-  // Always use dark mode
   useEffect(() => {
     document.documentElement.classList.add('dark');
   }, []);
 
-  // Handle Scroll Spy (Detect active section)
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ['home', 'about', 'projects', 'contact'];
+      const sections = ['home', 'about', 'projects', 'certificates', 'contact'];
       const scrollPosition = window.scrollY + 100;
 
       for (const section of sections) {
@@ -45,8 +44,7 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-neutral-950 text-gray-100">
-      
-      {/* Global Custom Styles */}
+
       <style>{`
         .gradient-text {
           background: linear-gradient(135deg, #ff6b35 0%, #ff8555 100%);
@@ -63,18 +61,19 @@ export default function App() {
         .shimmer-effect { animation: shimmer 3s infinite; }
       `}</style>
 
-      <Navbar 
-        activeSection={activeSection} 
-        scrollToSection={scrollToSection} 
+      <Navbar
+        activeSection={activeSection}
+        scrollToSection={scrollToSection}
       />
-      
+
       <main>
         <Hero scrollToSection={scrollToSection} />
         <About />
         <Projects />
+        <Certificates />
         <Contact />
       </main>
-      
+
       <Footer />
     </div>
   );
