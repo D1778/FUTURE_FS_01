@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add your font imports here */
+
+
+body {
+  font-family: 'Work Sans', sans-serif;
+}
