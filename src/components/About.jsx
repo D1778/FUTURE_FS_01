@@ -6,7 +6,7 @@ export default function About() {
     "Frontend": ["React.js", "JavaScript (ES6+)", "HTML5 & CSS3", "Tailwind CSS", "Responsive Design"],
     // UPDATED BACKEND LIST BELOW:
     "Backend": ["Node.js", "Express.js", "Python", "PHP", "SQL", "MongoDB"],
-    "Tools & Others": ["Git & GitHub", "VS Code", "Figma", "Agile/Scrum", "SEO Optimization"]
+    "Tools & Others": ["Git & GitHub", "VS Code", "Figma"]
   };
 
   return (
@@ -18,9 +18,9 @@ export default function About() {
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-16">
           {[
-            { icon: User, title: "Background", text: "I'm a full-stack developer with a passion for creating seamless user experiences. Currently pursuing my degree in Computer Science while building real-world applications." },
-            { icon: Code, title: "Interests", text: "Beyond coding, I'm interested in UI/UX design, open-source contribution, and emerging web technologies. I enjoy solving complex problems." },
-            { icon: Briefcase, title: "Goals", text: "I'm looking to join a dynamic team where I can contribute to meaningful projects, continue learning, and grow as a developer." }
+            { icon: User, title: "Background", text: "I'm an aspiring full-stack developer with a passion for creating seamless user experiences. Currently pursuing masters in Computer application while building real-world applications." },
+            { icon: Code, title: "Interests", text: "Beyond coding, I'm interested in UI/UX design, open-source contribution, and emerging web technologies." },
+            { icon: Briefcase, title: "Goals", text: "I'm looking to work as a full-stack developer in a dynamic team where I can contribute to meaningful projects, continue learning, and grow as a developer." }
           ].map((item, index) => (
             <div key={index} className="group">
               <div className="flex items-center gap-4 mb-6">

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Github, Linkedin, Mail, ArrowRight } from 'lucide-react';
-// Ensure this image exists in your folder: src/assets/my_aesthetic_picz.png
+
 import profilePic from '../assets/my_aesthetic_picz.png';
 
 export default function Hero({ scrollToSection }) {
@@ -12,7 +12,7 @@ export default function Hero({ scrollToSection }) {
           {/* === LEFT COLUMN: Text & Links === */}
           <div className="max-w-2xl">
             <p className="text-[#ff6b35] font-semibold tracking-wider mb-4 animate-fade-in">
-              FULL STACK DEVELOPER
+              ASPIRING FULL STACK DEVELOPER
             </p>
             
             <h1 className="font-serif text-5xl md:text-7xl font-bold leading-tight mb-6 animate-fade-in" style={{ animationDelay: '0.1s' }}>
@@ -21,7 +21,7 @@ export default function Hero({ scrollToSection }) {
             </h1>
             
             <p className="text-xl text-neutral-400 mb-10 leading-relaxed max-w-xl animate-fade-in" style={{ animationDelay: '0.2s' }}>
-              I'm a passionate developer specializing in creating beautiful, functional web applications. 
+              I'm a passionate and aspiring full-stack developer specializing in creating beautiful, functional web applications. 
               I turn ideas into elegant solutions using modern technologies.
             </p>
             

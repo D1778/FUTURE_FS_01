@@ -44,20 +44,20 @@ export default function Contact() {
         <h2 className="font-serif text-4xl md:text-5xl font-bold mb-12">
           Get In <span className="gradient-text">Touch</span>
         </h2>
-        
+
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24">
-          
+
           {/* Left Column: Contact Info & Links */}
           <div>
             <p className="text-xl text-neutral-400 leading-relaxed mb-8">
-              I'm currently looking for new opportunities and interesting projects. 
+              I'm currently looking for new opportunities and interesting projects.
               Whether you have a question or just want to say hi, feel free to reach out!
             </p>
-            
+
             <div className="flex flex-col gap-6">
               {/* Email */}
-              <a 
-                href="mailto:your.email@gmail.com" 
+              <a
+                href="mailto:your.email@gmail.com"
                 className="flex items-center gap-4 text-lg hover:text-[#ff6b35] transition-colors group"
               >
                 <div className="p-3 bg-neutral-800 rounded-lg group-hover:bg-[#ff6b35]/10 transition-colors">
@@ -67,10 +67,10 @@ export default function Contact() {
               </a>
 
               {/* GitHub */}
-              <a 
-                href="https://github.com/D1778" 
-                target="_blank" 
-                rel="noopener noreferrer" 
+              <a
+                href="https://github.com/D1778"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex items-center gap-4 text-lg hover:text-[#ff6b35] transition-colors group"
               >
                 <div className="p-3 bg-neutral-800 rounded-lg group-hover:bg-[#ff6b35]/10 transition-colors">
@@ -80,10 +80,10 @@ export default function Contact() {
               </a>
 
               {/* LinkedIn */}
-              <a 
-                href="https://www.linkedin.com/in/dinu-devees-george" 
-                target="_blank" 
-                rel="noopener noreferrer" 
+              <a
+                href="https://www.linkedin.com/in/dinu-devees-george"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex items-center gap-4 text-lg hover:text-[#ff6b35] transition-colors group"
               >
                 <div className="p-3 bg-neutral-800 rounded-lg group-hover:bg-[#ff6b35]/10 transition-colors">
